@@ -1,0 +1,41 @@
+## Archlinux Package
+alias maj="yaourt -Syua"
+alias candy="sudo pacman -S"
+alias aur="yaourt -S"
+alias pkg_search="yaourt -Ss"
+
+## Server
+alias hosts='sudo nano /etc/hosts'
+alias vhost='sudo nano /etc/httpd/conf/extra/httpd-vhosts.conf'
+alias goserver='cd /srv/http && ls -1'
+alias phpmyadmin='xdg-open http://localhost/phpmyadmin/'
+alias startserver='sudo apachectl start && sudo mysqld start'
+alias restartserver='sudo apachectl restart'
+
+## Commande Systeme
+alias lst="ls -1"
+alias open="xdg-open"
+alias grep='grep --color=auto'
+alias l='ls -lFh'
+alias la='ls -lAFh'
+alias lt='ls -ltFh'
+alias ll='ls -l'
+alias ldot='ls -l ~/.*'
+alias zshrc='nano ~/.zshrc' # Quick access to the ~/.zshrc file
+alias t='tail -f'
+alias dud='du -d 1 -h'
+alias duf='du -sh *'
+alias fd='find . -type d -name'
+alias ff='find . -type f -name'
+alias h='history'
+alias hgrep="fc -El 0 | grep"
+alias help='man'
+alias p='ps -f'
+alias sortnr='sort -n -r'
+alias unexport='unset'
+alias rm='rm -i'
+
+## List content of packed files
+alias -s zip="unzip -l"
+alias -s rar="unrar l"
+alias -s tar="tar tf"
