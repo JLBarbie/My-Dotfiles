@@ -1,0 +1,7 @@
+#SYSTEM ALIAS
+alias maj='yaourt -Syua'
+
+#GIT ALIAS
+alias gpp="git pull'
+
+
