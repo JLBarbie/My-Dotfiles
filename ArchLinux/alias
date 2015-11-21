@@ -1,7 +1,8 @@
 #SYSTEM ALIAS
 alias maj='yaourt -Syua'
+alias srch='yaourt -Ss'
 
 #GIT ALIAS
-alias gpp="git pull'
-
+alias gpp='git pull'
+alias gca='git commit -am'
 
