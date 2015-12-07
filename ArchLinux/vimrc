@@ -1,5 +1,1 @@
-syn on
-set nu
-set cursorline
-set tabstop=4
-set mouse=a
+vim ca pue
