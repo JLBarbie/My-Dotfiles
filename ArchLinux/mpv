@@ -1,0 +1,54 @@
+#Video#
+vo=opengl-hq:scale=haasnsoft:cscale=haasnsoft:tscale=gaussian:scaler-resizes-only:dither-depth=8:3dlut-size=256x512x256:gamma=0.9338:source-shader=[C:\Media\mpvhq-win64-master\deband.glsl]
+
+#Audio#
+audio-channels=2
+softvol=yes
+softvol-max=500
+
+#Audio & Subs#
+alang=jpn,jap,Japanese,en,eng,English
+slang=enm,en,eng,English
+sub-auto=fuzzy
+
+#Screenshot#
+screenshot-template="/home/jilou/Screenshot/%f%p"
+screenshot-format=jpg
+
+#Youtube#
+ytdl=yes
+ytdl-format=best
+
+#Geometry#
+geometry=50%:50%
+autofit-larger=80%x80%
+
+#Subs Feel#
+sub-text-font="Source Sans Pro Semibold"
+sub-text-font-size=53
+sub-text-margin-y=110
+sub-text-color="#FFFFFFFF"
+sub-text-border-color="#FF111111"
+sub-text-border-size=3.2
+sub-text-shadow-offset=1
+sub-text-shadow-color="#33000000"
+sub-text-spacing=0.5
+
+#OSD Feel#
+osd-font="Source Sans Pro Semibold"
+osd-font-size=53
+osd-color="#FFFFFFFF"
+osd-border-color="#FF262626"
+osd-border-size=3.2
+osd-shadow-offset=1
+osd-shadow-color="#33000000"
+osd-spacing=0.5
+no-osd-bar
+
+#Misc#
+#really-quiet
+keep-open=always
+
+#Web bum loop#
+[extension.webm]
+loop-file=inf
